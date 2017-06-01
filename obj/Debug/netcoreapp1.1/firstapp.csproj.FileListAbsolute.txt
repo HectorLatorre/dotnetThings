@@ -1,0 +1,9 @@
+/Users/hlatorre/firstapp/bin/Debug/netcoreapp1.1/firstapp.deps.json
+/Users/hlatorre/firstapp/bin/Debug/netcoreapp1.1/firstapp.runtimeconfig.json
+/Users/hlatorre/firstapp/bin/Debug/netcoreapp1.1/firstapp.runtimeconfig.dev.json
+/Users/hlatorre/firstapp/bin/Debug/netcoreapp1.1/firstapp.dll
+/Users/hlatorre/firstapp/bin/Debug/netcoreapp1.1/firstapp.pdb
+/Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.csprojResolveAssemblyReference.cache
+/Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.AssemblyInfo.cs
+/Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.dll
+/Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.pdb
