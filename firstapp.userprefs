@@ -1,7 +1,15 @@
-﻿<Properties StartupConfiguration="{1EEE2F30-37D9-4B56-84DF-5F984DF380D6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+﻿<Properties StartupConfiguration="{1EEE2F30-37D9-4B56-84DF-5F984DF380D6}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContextFactory.cs">
     <Files>
-      <File FileName="Startup.cs" Line="10" Column="1" />
+      <File FileName="Data/UniContext.cs" Line="9" Column="82" />
+      <File FileName="Startup.cs" Line="62" Column="16" />
+      <File FileName="Models/Curso.cs" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="3" Column="122" />
+      <File FileName="Models/Inscripcion.cs" Line="1" Column="1" />
+      <File FileName="Models/User.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Data/DbInitializer.cs" Line="13" Column="1" />
+      <File FileName="ContextFactory.cs" Line="53" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
