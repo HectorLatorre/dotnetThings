@@ -9,7 +9,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore;
-using firstapp.Data;
 
 namespace firstapp
 {
@@ -31,13 +30,12 @@ namespace firstapp
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            var stringCon = Configuration.GetConnectionString("DataAccessPostgreSqlProvider");
-            services.AddDbContext<UniContext>( options => options.UseNpgsql(stringCon));
+            services.AddDbContext<Data.UniContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DataAccessPostgreSqlProvider")));
             services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, UniContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
@@ -61,7 +59,7 @@ namespace firstapp
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            DbInitializer.Initialize(context);
+
         }
     }
 }
