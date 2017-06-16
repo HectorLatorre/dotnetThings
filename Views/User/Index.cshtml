@@ -1,0 +1,39 @@
+﻿@model IEnumerable<firstapp.Models.User>
+
+@{
+    ViewData["Title"] = "User";
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Usuarios</title>
+    </head>
+    <body>
+		<h2>Usuarios</h2>
+		<p>
+		  <a asp-controller="User" asp-action="Create">Add New</a>
+		</p>
+		<table class="table">
+		  <tr>
+		    <th>ID</th>
+		    <th>Nombre</th>
+			<th>Apellido</th>
+		  </tr>
+		  @foreach (var item in Model)
+		  {
+		    <tr>
+		      <td>
+		        @Html.DisplayFor(modelItem => item.IDUser)
+		      </td>
+		      <td>
+		        @Html.DisplayFor(modelItem => item.Nombre)
+		      </td>
+		      <td>
+		        @Html.DisplayFor(modelItem => item.Apellido)
+		      </td>
+		    </tr>
+		  }
+		</table>
+    </body>
+</html>

@@ -7,4 +7,3 @@
 /Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.AssemblyInfo.cs
 /Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.dll
 /Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.pdb
-/Users/hlatorre/firstapp/obj/Debug/netcoreapp1.1/firstapp.csproj.CoreCompileInputs.cache
