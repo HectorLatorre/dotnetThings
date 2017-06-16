@@ -1,5 +1,4 @@
-﻿using System;
-using firstapp.Models;
+﻿using firstapp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace firstapp.Data

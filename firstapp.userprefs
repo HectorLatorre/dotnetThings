@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{1EEE2F30-37D9-4B56-84DF-5F984DF380D6}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/DbInitializer.cs">
     <Files>
-      <File FileName="Startup.cs" Line="33" Column="51" />
-      <File FileName="Data/UniContext.cs" Line="20" Column="9" />
-      <File FileName="appsettings.json" Line="3" Column="34" />
+      <File FileName="Data/UniContext.cs" Line="22" Column="1" />
+      <File FileName="Data/DbInitializer.cs" Line="32" Column="1" />
+      <File FileName="Startup.cs" Line="58" Column="1" />
       <File FileName="Models/Curso.cs" Line="1" Column="1" />
-      <File FileName="Models/Inscripcion.cs" Line="1" Column="1" />
-      <File FileName="Models/User.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="21" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/hlatorre/firstapp/Data/DbInitializer.cs" relfile="Data/DbInitializer.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

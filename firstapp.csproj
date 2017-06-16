@@ -28,7 +28,6 @@
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="Data\MyDbContextFactory.cs" />
-    <Compile Remove="Data\DbInitializer.cs" />
     <Compile Remove="ContextFactory.cs" />
   </ItemGroup>
 </Project>
